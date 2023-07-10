@@ -29,7 +29,7 @@ app.use("/user",UserRoute)
 
 app.use("/api/restaurants",ResRouter)
 
-
+app.use("/api/orders",OrderRoute)
 
 // .....................................................................................................
 
