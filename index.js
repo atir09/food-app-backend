@@ -10,6 +10,8 @@ require("dotenv").config()
 const {connection}=require("./config/db.js")
 const {UserRoute}=require("./Routers/UserRoute.js")
 const {ResRouter}=require("./Routers/Restaurant.js")
+const {OrderRoute}=require("./Routers/Order.js")
+
 
 
 
